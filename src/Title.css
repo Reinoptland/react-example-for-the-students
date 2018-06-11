@@ -1,0 +1,28 @@
+.Title {
+  text-align: center;
+}
+
+.Title-logo {
+  animation: Title-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.Title-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.Title-title {
+  font-size: 1.5em;
+}
+
+.Title-intro {
+  font-size: large;
+}
+
+@keyframes Title-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
